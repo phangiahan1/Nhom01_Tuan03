@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context=".Resultform">
+
+
+    <TextView
+        android:id="@+id/textInfor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Your information registered"
+        android:textSize="25dp"
+        android:layout_margin="5dp"/>
+
+    <TableRow android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username: "
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/viewRecive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+        <!--            android:text="Username"-->
+        <!--            />-->
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Password: "
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/viewReceive1"
+            android:inputType="textPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birthdate: "
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/viewReceive2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender: "
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/viewReceive3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobbies: "
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/viewReceive4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="5dp"/>
+    </TableRow>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            tools:ignore="MissingConstraints"  />
+
+    </LinearLayout>
+</TableLayout>
